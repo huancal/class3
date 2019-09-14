@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url('./img/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 10vh;
+    background-color: aquamarine;
+    display: table;
+    width: 100%
+}
+
+
+.nav-link-containter {
+    display: table;
+    float: right;
+    height: 10vh;
+    padding-right: 20px;
+    margin-right: 120px;
+    vertical-align: middle;
+
+
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: white;
+}
+
+.nav-link:not(:last-child) {
+    padding-right: 20px;
+}
+
+.name {
+    color: rgb(90, 83, 83);
+    display: table-cell;
+    font-family: 'Muli', sans-serif;
+    padding-left: 120px;
+    vertical-align: middle;
+
+}
+
+.container {
+    position: absolute;
+    background-color: #ecf0f1;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(80, 77, 77);
+
+}
+
+.card-header {
+    height: 25%;
+    background-color: rgb(138, 108, 167);
+    display: table;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card-header-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.red-text {
+    background-color: red;
+}
+
+.centered {
+    text-align: center;
+
+}
+
+
+.childDiv {
+    padding: 0px 10px 10px 10px;
+}
+
+.paragraph {
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+    position: relative;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 10vh;
+}
